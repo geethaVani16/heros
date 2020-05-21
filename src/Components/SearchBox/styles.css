@@ -1,0 +1,14 @@
+
+
+
+
+.searchBox {
+    font-size: x-large;
+    width: 200px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 21px;
+    height: 43px;
+    border-radius: 10px;
+    border-color: transparent;
+}
