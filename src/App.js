@@ -22,6 +22,7 @@ class App extends React.Component {
     const filteredMonsters=monsters.filter(monster => 
        monster.name.toLowerCase().includes(searchFeild.toLowerCase())
     )
+    console.log(filteredMonsters ,"filteredMonsters")
     return (
       <div className="App">
         <h1>REAL HEROS</h1>
@@ -31,7 +32,7 @@ class App extends React.Component {
           this.setState({searchFeild:e.target.value}) }}
         />
        
-        <Cardlist monsters= {filteredMonsters}/>
+        <Cardlist monsters = {filteredMonsters}/>
       </div>
     )
   }
